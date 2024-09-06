@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Course1", "Course1", "{1B8A186A-40D3-4A1B-9120-37FEAC619238}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud24.Course1.Lab1", "Cloud24.Course1.Lab1\Cloud24.Course1.Lab1.csproj", "{26BC0ADF-A9F2-4543-A674-F65F2DB1DE20}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud24.Course1.Exercises", "Cloud24.Course1.Exercises\Cloud24.Course1.Exercises.csproj", "{05504ADE-0CC6-4498-B273-DA1BBE157E9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cloud24.Course1.Theory", "Cloud24.Course1.Theory\Cloud24.Course1.Theory.csproj", "{3310F17C-DDCF-4385-88AA-5A3832C9A48E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26BC0ADF-A9F2-4543-A674-F65F2DB1DE20}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26BC0ADF-A9F2-4543-A674-F65F2DB1DE20}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26BC0ADF-A9F2-4543-A674-F65F2DB1DE20}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26BC0ADF-A9F2-4543-A674-F65F2DB1DE20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05504ADE-0CC6-4498-B273-DA1BBE157E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05504ADE-0CC6-4498-B273-DA1BBE157E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05504ADE-0CC6-4498-B273-DA1BBE157E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05504ADE-0CC6-4498-B273-DA1BBE157E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3310F17C-DDCF-4385-88AA-5A3832C9A48E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3310F17C-DDCF-4385-88AA-5A3832C9A48E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3310F17C-DDCF-4385-88AA-5A3832C9A48E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3310F17C-DDCF-4385-88AA-5A3832C9A48E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{26BC0ADF-A9F2-4543-A674-F65F2DB1DE20} = {1B8A186A-40D3-4A1B-9120-37FEAC619238}
+		{05504ADE-0CC6-4498-B273-DA1BBE157E9C} = {1B8A186A-40D3-4A1B-9120-37FEAC619238}
+		{3310F17C-DDCF-4385-88AA-5A3832C9A48E} = {1B8A186A-40D3-4A1B-9120-37FEAC619238}
+	EndGlobalSection
+EndGlobal
