@@ -5,8 +5,8 @@ public static class SubstringPatternFinder
     public static void Run()
     {
         Console.WriteLine("Input a string:");
-        // var userInput = Console.ReadLine() ?? string.Empty; 
-        var userInput = "29535123p48723487597645723645";
+        var userInput = Console.ReadLine() ?? string.Empty; 
+        // var userInput = "29535123p48723487597645723645";
 
         Console.WriteLine("--------------------------");
         Console.WriteLine("\nResult:");
