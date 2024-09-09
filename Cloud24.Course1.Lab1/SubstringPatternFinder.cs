@@ -5,7 +5,7 @@ public static class SubstringPatternFinder
     public static void Run()
     {
         Console.WriteLine("Input a string:");
-        var userInput = Console.ReadLine() ?? string.Empty; 
+        var userInput = Console.ReadLine() ?? string.Empty;
         // var userInput = "29535123p48723487597645723645";
 
         Console.WriteLine("--------------------------");
@@ -13,7 +13,7 @@ public static class SubstringPatternFinder
         Console.WriteLine("--------------------------");
 
         // Use 'ulong' to handle large sums and prevent overflow
-        // // source: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types
+        // source: https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/builtin-types/integral-numeric-types
         ulong sum = 0;
 
         ProcessString(userInput, ref sum);
@@ -21,7 +21,7 @@ public static class SubstringPatternFinder
         Console.WriteLine("\nSum:");
         Console.WriteLine(sum);
         // INPUT: 29535123p48723487597645723645
-        // OUTPUT: 5836428677242
+        // OUTPUT (sum): 5836428677242
     }
 
     private static void ProcessString(string input, ref ulong sum)
